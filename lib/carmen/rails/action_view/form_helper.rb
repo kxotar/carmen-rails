@@ -233,7 +233,7 @@ module ActionView
       # web form.
       #
       # See `FormOptionsHelper::country_select` for more information.
-      def country_select(method, priorities_or_options = {}, options_or_html_options = {}, html_options = {})
+      def carmen_country_select(method, priorities_or_options = {}, options_or_html_options = {}, html_options = {})
         if priorities_or_options.is_a? Array
           options = options_or_html_options
           options[:priority] = priorities_or_options
